@@ -4,7 +4,7 @@
  *
  * Created on 22 de mayo de 2024, 10:55
  */
-
+#include "./init.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <GL/glut.h>
@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
     glutCreateWindow(get_carnet());
     glClearColor(0.8, 0, 0, 1);
     init();
-    glutDisplayFunc(dibujar);
+    glutDisplayFunc(dibujar_usoMultiples);
     glutMainLoop();
     printf("=== fin ===");
     return (EXIT_SUCCESS);

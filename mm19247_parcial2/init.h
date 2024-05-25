@@ -18,7 +18,7 @@ extern "C" {
 
 void init(void);
 
-void dibujar();
+void dibujar_usoMultiples();
 
 const char* get_carnet(void);
 
