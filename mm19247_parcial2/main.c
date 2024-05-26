@@ -23,7 +23,8 @@ int main(int argc, char** argv) {
     glutInitWindowPosition(200, 200);
     glutInitWindowSize(700, 700);
     glutCreateWindow(get_carnet());
-    glClearColor(0.8, 0, 0, 1);
+    glClearColor(0.0, 1.0, 1.0, 1.0);
+    //glClearColor(0.8, 0, 0, 1);
     init();
     glutDisplayFunc(dibujar_usoMultiples);
     glutMainLoop();
